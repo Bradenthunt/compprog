@@ -1,15 +1,17 @@
-print("This is Mr Hunt's class")
+user_name = input('What is your name? ')
+user_age = int(input('What is your age? '))
+user_gender = input('What is your gender? ')
 
-# primitive/simple
-string = "Computer Programing 1"
-integer = 70
-float = 70.5
-is_boolean = True
+if user_gender == 'male' or user_gender == 'Male':
+    is_male = True
+else:
+    is_male = False
 
-# complex
-list = [1, 2, 3, 4]
-dictionary = {
-    name: "Bill",
-    age: 22,
+character = {
+    "name": user_name,
+    "age": user_age,
+    "is_male": is_male,
+    "fav_food_list": ['cookies', 'hot dogs', 'pretzels', 'ice cream', 'hamburgers']
 }
 
+print(character)
