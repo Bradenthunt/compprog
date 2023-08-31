@@ -11,7 +11,7 @@ character = {
     "name": user_name,
     "age": user_age,
     "is_male": is_male,
-    "fav_food_list": ['cookies', 'hot dogs', 'pretzels', 'ice cream', 'hamburgers']
+    "fav_food_list": ['cookies', 'hot dogs', 'pretzels', 'ice cream', 'steaks']
 }
 
 print(character)
