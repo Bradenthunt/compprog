@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- An ordered list element with steps on how to fill out the form (minimum of 3 steps) -->
+<html>
+  <head>
+    <title>Using Forms</title>
+  </head>
+  <body>
+    <ol>
+      <li>Type in your name</li>
+      <li>Type in your favorite color</li>
+      <li>Click submit</li>
+    </ol>
+    <form>
+      <!-- A form element containing:
+            4 text input elements with placeholder text
+            2 checkbox input elements with two label elements
+            2 radio button elements
+            A select element with 3 option elements
+            A button element with 'submit' as the text -->
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Name" />
+      <br />
+      <input type="checkbox" id="food" name="food" value="Chicken" />
+      <label for="food"> Chicken</label>
+      <input type="checkbox" id="food" name="food" value="Steak" />
+      <label for="food"> Steak</label>
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="female">Female</label><br />
+      <select>
+        <option>Paris</option>
+        <option>Tokyo</option>
+        <option>Beijing</option>
+      </select>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
