@@ -43,3 +43,4 @@ message2 = 4 < 2 or 33 < 43
 x = True
 
 print(not x)
+print("hello")
