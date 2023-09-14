@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+}
+
+#first {
+  color: purple;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 700px) {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
