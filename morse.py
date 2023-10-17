@@ -12,3 +12,4 @@ def to_morse_code(message):
     print(morse_code)
 
 to_morse_code(message_to_code)
+print("Nice.")
